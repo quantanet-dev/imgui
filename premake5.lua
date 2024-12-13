@@ -13,6 +13,10 @@ project "imgui"
 		"backends/imgui_impl_opengl3.h",
 		"backends/imgui_impl_opengl3.cpp",
 		"backends/imgui_impl_opengl3_loader.h",
-		"src/*.h",
-		"src/*.c",
+		"*.h",
+		"*.cpp",
+	}
+
+	includedirs {
+		"include"
 	}
