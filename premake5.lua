@@ -18,5 +18,6 @@ project "imgui"
 	}
 
 	includedirs {
-		"include"
+		"./",
+		"%{wks.location}/Helio/vendor/glfw/include"
 	}
